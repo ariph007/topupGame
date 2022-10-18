@@ -52,32 +52,32 @@ export default function SignIn() {
                   htmlFor='email'
                   className='form-label text-lg fw-medium color-palette-1 mb-10'
                 >
-                  <input
-                    type='email'
-                    className='form-control rounded-pill text-lg'
-                    id='email'
-                    name='email'
-                    aria-describedby='email'
-                    placeholder='Enter your email address'
-                  />
                   Email Address
                 </label>
+                <input
+                  type='email'
+                  className='form-control rounded-pill text-lg'
+                  id='email'
+                  name='email'
+                  aria-describedby='email'
+                  placeholder='Enter your email address'
+                />
               </div>
               <div className='pt-30'>
                 <label
                   htmlFor='password'
                   className='form-label text-lg fw-medium color-palette-1 mb-10'
                 >
-                  <input
-                    type='password'
-                    className='form-control rounded-pill text-lg'
-                    id='password'
-                    name='password'
-                    aria-describedby='password'
-                    placeholder='Your password'
-                  />
                   Password
                 </label>
+                <input
+                  type='password'
+                  className='form-control rounded-pill text-lg'
+                  id='password'
+                  name='password'
+                  aria-describedby='password'
+                  placeholder='Your password'
+                />
               </div>
               <div className='button-group d-flex flex-column mx-auto pt-50'>
                 <a
